@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.10.7",
+    "axios": "^1.6.0",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18",
@@ -20,6 +22,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "daisyui": "^3.9.4",
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
     "postcss": "^8",
