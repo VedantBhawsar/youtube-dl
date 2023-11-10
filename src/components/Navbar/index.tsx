@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="py-10 flex items-center justify-between  px-48 bg-[--primary]">
       <Link
         href={"/"}
-        className="font-[--font-family-sans-serif]  text-lg text-white flex items-center gap-2"
+        className="font-[--font-family-sans-serif]  text-lg text-white flex items-center gap-2 hover:underline"
         style={{ fontWeight: 500 }}
       >
         <div className="w-6 h-6 relative flex">

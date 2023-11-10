@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme="cupcake">
+      <head>
+        <link rel="icon" href="./public/logo.png" />
+      </head>
       <body className={`${inter.className} justify-center `}>
         <ThemeContextProvider>
           <ThemeProvider>

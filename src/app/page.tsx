@@ -6,6 +6,9 @@ import { TopSection } from "@components/HomePage/TopSection";
 export default function Home() {
   return (
     <div>
+      <head>
+        <link rel="shortcut icon" href="public/logo.png" />
+      </head>
       <TopSection playlist={false} />
       <Platforms />
       <Steps />
