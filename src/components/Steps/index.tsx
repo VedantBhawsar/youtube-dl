@@ -14,9 +14,9 @@ export const Steps = () => {
         <li className="text-inherit">
           Step 2. Paste the URL. Simply paste the YouTube URL into the
           designated box located at the top of this page, then click on the
-          "Download" button. If you wish to preserve the video on your ssyoutube
-          account and personalize it, host it, or stream it, select the "Save
-          and edit video" button.
+          &quot;Download&quot; button. If you wish to preserve the video on your
+          ssyoutube account and personalize it, host it, or stream it, select
+          the &quot;Save and edit video&quot; button.
         </li>
         <li className="text-inherit">
           Step 3. Download the video. Now, the video will be automatically saved

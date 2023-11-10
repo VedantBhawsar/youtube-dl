@@ -1,25 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import { Buttons } from "./Buttons";
 
 export const VideoInfo = ({ data, url, playlist }: any) => {
-  console.log(url);
-  const [loading, setLoading] = useState(false);
-
-  function downloadFile(url: string) {
-    var link = document.createElement("a");
-    link.href = url;
-    link.download = "data.title";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
-
   return (
     <div className="flex gap-10 text-white p-7">
       <div className="card w-80   bg-base-100 shadow-xl">
-        <figure>
+        <figure className="relative">
           {data?.thumbnail?.url && (
             <img src={data.thumbnail.url} alt="thumbnail" />
           )}
@@ -43,6 +30,7 @@ export const VideoInfo = ({ data, url, playlist }: any) => {
             <tbody>
               {data.quality.map((resolution: any, index: any) => (
                 <Buttons
+                  key={index}
                   resolution={resolution}
                   index={index}
                   playlist={playlist}
