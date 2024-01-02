@@ -38,8 +38,8 @@ export const TopSection = ({ playlist }) => {
     }
   };
   return (
-    <div className="bg-[--primary] py-10  items-center justify-center flex flex-col w-full px-48 gap-10">
-      <h1 className="text-3xl font-[--font-family-sans-sarif] text-white">
+    <div className="bg-[--primary] py-10 h-96  items-center justify-center flex flex-col w-full px-48 gap-10">
+      <h1 className="text-4xl font-[--font-family-sans-sarif] text-white">
         {playlist ? "Youtube Playlist Downloader" : "Youtube Video Downloader"}
       </h1>
       <div className="w-4/6 max-h-12  rounded-md bg-white flex">

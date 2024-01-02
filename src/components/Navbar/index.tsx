@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="py-10 flex items-center justify-between  px-48 bg-[--primary]">
       <Link
         href={"/"}
-        className="font-[--font-family-sans-serif]  text-lg text-white flex items-center gap-2 hover:underline"
+        className="text-3xl font-[--font-family-sans-serif] text-white flex items-center gap-2 hover:underline"
         style={{ fontWeight: 500 }}
       >
         <div className="w-6 h-6 relative flex">
@@ -17,13 +17,13 @@ export const Navbar = () => {
       <div className="flex gap-8">
         <Link
           href={"/playlist"}
-          className="text-md opacity-90 hover:opacity-100 hover:translate-x-1 duration-200 transition-all delay-75 text-white"
+          className="text-xl  hover:opacity-100 hover:translate-x-1 duration-200 transition-all delay-75 text-white"
         >
           Download playlist
         </Link>
         <Link
           href={"/"}
-          className="text-md opacity-90 hover:opacity-100 hover:translate-x-1 duration-200 transition-all delay-75 text-white"
+          className="text-xl   hover:opacity-100 hover:translate-x-1 duration-200 transition-all delay-75 text-white"
         >
           Download video
         </Link>

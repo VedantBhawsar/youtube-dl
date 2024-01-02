@@ -24,11 +24,16 @@ export default function RootLayout({
         <link rel="icon" href="./public/logo.png" />
       </head>
       <body className={`${inter.className} justify-center `}>
+        <head>
+          <link rel="shortcut icon" href="public/logo.png" />
+        </head>
         <ThemeContextProvider>
           <ThemeProvider>
-            <Navbar />
-            {children}
-            <Footer />
+            <div className="flex flex-col w-9/12 mx-auto">
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
           </ThemeProvider>
         </ThemeContextProvider>
       </body>

@@ -5,10 +5,7 @@ import { TopSection } from "@components/HomePage/TopSection";
 
 export default function Home() {
   return (
-    <div>
-      <head>
-        <link rel="shortcut icon" href="public/logo.png" />
-      </head>
+    <div className="flex flex-col items-center">
       <TopSection playlist={false} />
       <Platforms />
       <Steps />
